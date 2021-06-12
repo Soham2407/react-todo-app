@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(120deg, #614385, #516395);
+  min-height: 100vh;
+  color: #fff;
+}
+
+@import "todoinput";
+@import "todolist";
+@import "todos";

@@ -1,0 +1,38 @@
+.todo {
+  background-color: #a67cd8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  transition: all 0.3s ease-in;
+  margin: 0.8rem;
+
+  h3 {
+    color: #fff;
+    padding: 0 1rem;
+    flex: 1;
+  }
+
+  button {
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #a67cd8;
+    transition: all 0.3s ease-in;
+  }
+
+  .trash-btn:hover {
+    background-color: rgb(218, 42, 42);
+  }
+
+  .edit-btn:hover {
+    background-color: rgb(15, 15, 199);
+  }
+
+  // .fa-edit,
+  // .fa-trash {
+  //   pointer-events: none;
+  // }
+}
